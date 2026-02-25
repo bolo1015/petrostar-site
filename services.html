@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services | Petrostar Sdn. Bhd.</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style> .text-petro-red { color: #E31E24; } .bg-petro-red { background-color: #E31E24; } .border-petro-red { border-color: #E31E24; } </style>
+    <style>
+        .text-petro-red { color: #E31E24; }
+        .bg-petro-red { background-color: #E31E24; }
+        .border-petro-red { border-color: #E31E24; }
+    </style>
 </head>
-<body class="bg-slate-50">
+<body class="bg-slate-50 font-sans leading-relaxed">
     <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-4">
-                <img src="logo.png" alt="Petrostar Logo" class="h-20 w-auto">
-                <span class="text-2xl font-black tracking-tight text-slate-800">Petrostar <span class="text-petro-red">Sdn. Bhd.</span></span>
+                <img src="logo.png" alt="Petrostar Logo" class="h-16 w-auto">
+                <span class="text-xl font-black text-slate-800">Petrostar <span class="text-petro-red">Sdn. Bhd.</span></span>
             </div>
-            <div class="hidden md:flex space-x-10 font-bold uppercase text-sm tracking-widest">
+            <div class="hidden md:flex space-x-8 font-bold uppercase text-xs tracking-widest">
                 <a href="index.html" class="hover:text-petro-red transition">Home</a>
                 <a href="services.html" class="text-petro-red border-b-2 border-petro-red pb-1">Services</a>
                 <a href="contact.html" class="hover:text-petro-red transition">Contact Us</a>
@@ -22,35 +26,60 @@
         </div>
     </nav>
 
-    <section class="py-24">
+    <section class="py-20">
         <div class="container mx-auto px-6 text-center">
             <h1 class="text-5xl font-black mb-6">Our Core Solutions</h1>
-            <p class="text-xl text-slate-600 mb-16 max-w-2xl mx-auto">We provide specialized services that allow businesses to focus on their core operations while we handle the critical support structures.</p>
+            <p class="text-lg text-slate-600 mb-16 max-w-2xl mx-auto">We offer three primary pillars of support to ensure your business operations in Seremban and beyond remain seamless and professional.</p>
             
-            <div class="grid lg:grid-cols-3 gap-12">
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 group">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="HR Management" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-10 text-left">
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="bg-white rounded-xl shadow-md border border-slate-100 overflow-hidden flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="HR Management" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left flex-grow">
                         <h3 class="text-2xl font-bold mb-4 text-petro-red">HR Management</h3>
-                        <p class="text-slate-600 mb-6">Comprehensive support including recruitment, payroll administration, and compliance with Malaysian labor laws. We streamline your workforce management so you can focus on productivity.</p>
-                        <ul class="text-slate-500 space-y-2 text-sm">
-                            <li>• Talent Acquisition & Sourcing</li>
-                            <li>• Statutory Compliance (EPF/SOCSO)</li>
-                            <li>• Industrial Relations Advisory</li>
+                        <p class="text-slate-600 mb-6 text-sm">Professional management of your workforce, from strategic recruitment to payroll administration. We ensure full compliance with Malaysian labor laws.</p>
+                        <ul class="text-slate-400 space-y-2 text-xs font-semibold uppercase tracking-tighter">
+                            <li>• Talent Acquisition</li>
+                            <li>• EPF / SOCSO Compliance</li>
+                            <li>• Industrial Relations</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 group">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&w=800&q=80" alt="General Facilities" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="bg-white rounded-xl shadow-md border border-slate-100 overflow-hidden flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1454165833767-027ffea9e778?auto=format&fit=crop&w=800&q=80" alt="Consultancy Services" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left flex-grow">
+                        <h3 class="text-2xl font-bold mb-4 text-petro-red">Consultancy Services</h3>
+                        <p class="text-slate-600 mb-6 text-sm">Expert business advice designed to improve efficiency. We provide strategic planning and management training to elevate your corporate performance.</p>
+                        <ul class="text-slate-400 space-y-2 text-xs font-semibold uppercase tracking-tighter">
+                            <li>• Process Optimization</li>
+                            <li>• Strategic Planning</li>
+                            <li>• Management Training</li>
+                        </ul>
                     </div>
-                    <div class="p-10 text-left">
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md border border-slate-100 overflow-hidden flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&w=800&q=80" alt="General Facilities" class="h-56 w-full object-cover">
+                    <div class="p-8 text-left flex-grow">
                         <h3 class="text-2xl font-bold mb-4 text-petro-red">General Facilities</h3>
-                        <p class="text-slate-600 mb-6">Professional cleaning and maintenance services for industrial, commercial, and residential premises. We ensure a safe, hygienic, and pristine environment for your staff and clients.</p>
-                        <ul class="text-slate-500 space-y-2 text-sm">
-                            <li>• Industrial Floor & Surface Care</li>
-                            <li>• Specialized Premise Sanitation</li>
-                            <li>• Daily Office Maintenance</li>
+                        <p class="text-slate-600 mb-6 text-sm">Maintaining a clean and safe environment is essential. We provide top-tier cleaning services for commercial, industrial, and residential premises.</p>
+                        <ul class="text-slate-400 space-y-2 text-xs font-semibold uppercase tracking-tighter">
+                            <li>• Industrial Cleaning</li>
+                            <li>• Premise Sanitation</li>
+                            <li>• Daily Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-10 mt-10">
+        <div class="container mx-auto px-6 text-center">
+            <p class="opacity-50 text-sm font-medium">&copy; 2026 Petrostar Sdn. Bhd. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
