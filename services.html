@@ -5,42 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services | Petrostar Sdn. Bhd.</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style> .text-petro-red { color: #E31E24; } .bg-petro-red { background-color: #E31E24; } </style>
+    <style> .text-petro-red { color: #E31E24; } .bg-petro-red { background-color: #E31E24; } .border-petro-red { border-color: #E31E24; } </style>
 </head>
-<body class="bg-gray-50">
-    <nav class="bg-white shadow-md sticky top-0 z-50">
+<body class="bg-slate-50">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <img src="logo.png" alt="Petrostar Logo" class="h-12">
-            <div class="space-x-8 font-semibold">
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="Petrostar Logo" class="h-20 w-auto">
+                <span class="text-2xl font-black tracking-tight text-slate-800">Petrostar <span class="text-petro-red">Sdn. Bhd.</span></span>
+            </div>
+            <div class="hidden md:flex space-x-10 font-bold uppercase text-sm tracking-widest">
                 <a href="index.html" class="hover:text-petro-red transition">Home</a>
-                <a href="services.html" class="text-petro-red border-b-2 border-petro-red">Services</a>
+                <a href="services.html" class="text-petro-red border-b-2 border-petro-red pb-1">Services</a>
                 <a href="contact.html" class="hover:text-petro-red transition">Contact Us</a>
             </div>
         </div>
     </nav>
 
-    <section class="py-16">
+    <section class="py-24">
         <div class="container mx-auto px-6 text-center">
-            <h1 class="text-4xl font-bold mb-12">Our Core Solutions</h1>
+            <h1 class="text-5xl font-black mb-6">Our Core Solutions</h1>
+            <p class="text-xl text-slate-600 mb-16 max-w-2xl mx-auto">We provide specialized services that allow businesses to focus on their core operations while we handle the critical support structures.</p>
             
-            <div class="grid md:grid-cols-2 gap-10">
-                <div class="bg-white p-8 rounded-xl shadow-lg text-left">
-                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-6 h-48 w-full object-cover">
-                    <h3 class="text-2xl font-bold mb-4 text-petro-red">Human Resource Management</h3>
-                    <p class="text-gray-600">Expert management of talent, recruitment, and organizational structures to ensure your team is efficient and motivated.</p>
+            <div class="grid lg:grid-cols-3 gap-12">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80" alt="HR Management" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-10 text-left">
+                        <h3 class="text-2xl font-bold mb-4 text-petro-red">HR Management</h3>
+                        <p class="text-slate-600 mb-6">Comprehensive support including recruitment, payroll administration, and compliance with Malaysian labor laws. We streamline your workforce management so you can focus on productivity.</p>
+                        <ul class="text-slate-500 space-y-2 text-sm">
+                            <li>• Talent Acquisition & Sourcing</li>
+                            <li>• Statutory Compliance (EPF/SOCSO)</li>
+                            <li>• Industrial Relations Advisory</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-lg text-left">
-                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-6 h-48 w-full object-cover">
-                    <h3 class="text-2xl font-bold mb-4 text-petro-red">Facilities & Cleaning</h3>
-                    <p class="text-gray-600">Professional cleaning services for premises and common building areas, maintaining the highest standards of hygiene.</p>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="General Facilities" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-10 text-left">
+                        <h3 class="text-2xl font-bold mb-4 text-petro-red">General Facilities</h3>
+                        <p class="text-slate-600 mb-6">Professional cleaning and maintenance services for industrial, commercial, and residential premises. We ensure a safe, hygienic, and pristine environment for your staff and clients.</p>
+                        <ul class="text-slate-500 space-y-2 text-sm">
+                            <li>• Industrial Floor & Surface Care</li>
+                            <li>• Specialized Premise Sanitation</li>
+                            <li>• Daily Office Maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1454165833767-027ffea9e778?auto=format&fit=crop&w=800&q=80" alt="Strategic Consultancy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-10 text-left">
+                        <h3 class="text-2xl font-bold mb-4 text-petro-red">Consultancy Services</h3>
+                        <p class="text-slate-600 mb-6">Strategic insights tailored to the Malaysian market. We assist in organizational restructuring, process optimization, and long-term business planning to drive sustainable results.</p>
+                        <ul class="text-slate-500 space-y-2 text-sm">
+                            <li>• Business Process Improvement</li>
+                            <li>• Strategic Market Positioning</li>
+                            <li>• Management Training</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-900 text-white py-10">
+    <footer class="bg-slate-900 text-white py-12">
         <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2026 Petrostar Sdn. Bhd. All Rights Reserved.</p>
+            <p class="opacity-60 font-medium">&copy; 2026 Petrostar Sdn. Bhd. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
