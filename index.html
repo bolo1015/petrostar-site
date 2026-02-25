@@ -3,42 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petrostar Sdn. Bhd. | Excellence in Consultancy</title>
+    <title>Contact Us | Petrostar Sdn. Bhd.</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .text-petro-red { color: #E31E24; }
-        .bg-petro-red { background-color: #E31E24; }
-    </style>
+    <style> .text-petro-red { color: #E31E24; } .bg-petro-red { background-color: #E31E24; } </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-gray-50">
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <img src="logo.png" alt="Petrostar Logo" class="h-12">
             <div class="space-x-8 font-semibold">
-                <a href="index.html" class="text-petro-red border-b-2 border-petro-red">Home</a>
+                <a href="index.html" class="hover:text-petro-red transition">Home</a>
                 <a href="services.html" class="hover:text-petro-red transition">Services</a>
-                <a href="contact.html" class="hover:text-petro-red transition">Contact Us</a>
+                <a href="contact.html" class="text-petro-red border-b-2 border-petro-red">Contact Us</a>
             </div>
         </div>
     </nav>
 
-    <header class="bg-white py-20 border-b border-gray-100">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
-            <div class="md:w-1/2 mb-10 md:mb-0">
-                <h1 class="text-5xl font-bold leading-tight mb-6">Empowering Your Business Since <span class="text-petro-red">2002</span></h1>
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">Petrostar Sdn. Bhd. provides world-class human resource management and strategic consultancy services designed to elevate Malaysian industries.</p>
-                <a href="services.html" class="bg-petro-red text-white px-8 py-3 rounded-md font-bold hover:opacity-90 transition">Our Services</a>
+    <section class="py-20">
+        <div class="container mx-auto px-6 max-w-4xl bg-white shadow-xl rounded-2xl overflow-hidden flex flex-col md:flex-row">
+            <div class="md:w-1/2 bg-petro-red text-white p-12">
+                <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
+                <p class="mb-8 opacity-90">Reach out to us for enquiries regarding our consultancy or facility management services.</p>
+                
+                <div class="space-y-4">
+                    <p><strong>Email:</strong><br>info@petrostar.com.my</p>
+                    <p><strong>Location:</strong><br>Selangor, Malaysia</p>
+                </div>
             </div>
-            <div class="md:w-1/2 px-10">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Office Collaboration" class="rounded-lg shadow-2xl">
+            <div class="md:w-1/2 p-12">
+                <form action="#" method="POST" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Name</label>
+                        <input type="text" class="w-full border p-3 rounded shadow-sm focus:outline-petro-red" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Email</label>
+                        <input type="email" class="w-full border p-3 rounded shadow-sm focus:outline-petro-red" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-2">Message</label>
+                        <textarea class="w-full border p-3 rounded shadow-sm focus:outline-petro-red" rows="4"></textarea>
+                    </div>
+                    <button class="bg-petro-red text-white px-6 py-3 rounded font-bold w-full hover:bg-red-700">Send Message</button>
+                </form>
             </div>
-        </div>
-    </header>
-
-    <section class="py-20 bg-gray-50 text-center">
-        <div class="container mx-auto px-6 max-w-3xl">
-            <h2 class="text-3xl font-bold mb-6">About Petrostar</h2>
-            <p class="text-gray-600 leading-relaxed">Based in Selangor, we are a diversified Malaysian entity. We bridge the gap between human potential and corporate goals, offering a wide spectrum of management and cleaning solutions tailored to your unique needs.</p>
         </div>
     </section>
 
