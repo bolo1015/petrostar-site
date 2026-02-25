@@ -3,56 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Petrostar Sdn. Bhd.</title>
+    <title>Petrostar Sdn. Bhd. | Seremban's Leading Consultancy</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style> .text-petro-red { color: #E31E24; } .bg-petro-red { background-color: #E31E24; } </style>
+    <style>
+        .text-petro-red { color: #E31E24; }
+        .bg-petro-red { background-color: #E31E24; }
+        .border-petro-red { border-color: #E31E24; }
+    </style>
 </head>
-<body class="bg-gray-50">
-    <nav class="bg-white shadow-md sticky top-0 z-50">
+<body class="bg-slate-50 text-slate-900 font-sans leading-relaxed">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <img src="logo.png" alt="Petrostar Logo" class="h-12">
-            <div class="space-x-8 font-semibold">
-                <a href="index.html" class="hover:text-petro-red transition">Home</a>
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="Petrostar Logo" class="h-20 w-auto">
+                <span class="text-2xl font-black tracking-tight text-slate-800">Petrostar <span class="text-petro-red">Sdn. Bhd.</span></span>
+            </div>
+            <div class="hidden md:flex space-x-10 font-bold uppercase text-sm tracking-widest">
+                <a href="index.html" class="text-petro-red border-b-2 border-petro-red pb-1">Home</a>
                 <a href="services.html" class="hover:text-petro-red transition">Services</a>
-                <a href="contact.html" class="text-petro-red border-b-2 border-petro-red">Contact Us</a>
+                <a href="contact.html" class="hover:text-petro-red transition">Contact Us</a>
             </div>
         </div>
     </nav>
 
-    <section class="py-20">
-        <div class="container mx-auto px-6 max-w-4xl bg-white shadow-xl rounded-2xl overflow-hidden flex flex-col md:flex-row">
-            <div class="md:w-1/2 bg-petro-red text-white p-12">
-                <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
-                <p class="mb-8 opacity-90">Reach out to us for enquiries regarding our consultancy or facility management services.</p>
-                
-                <div class="space-y-4">
-                    <p><strong>Email:</strong><br>info@petrostar.com.my</p>
-                    <p><strong>Location:</strong><br>Selangor, Malaysia</p>
+    <header class="bg-white py-24">
+        <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 mb-12 lg:mb-0">
+                <h1 class="text-6xl font-extrabold leading-tight mb-8">Empowering Malaysian Business Since <span class="text-petro-red">2002</span></h1>
+                <p class="text-xl text-slate-600 mb-10 max-w-xl">For over two decades, Petrostar Sdn. Bhd. has been a cornerstone of stability and growth for industries across Malaysia. We specialize in navigating the complexities of human capital and operational efficiency, ensuring your organization has the foundation it needs to thrive in a competitive landscape.</p>
+                <div class="flex space-x-4">
+                    <a href="services.html" class="bg-petro-red text-white px-10 py-4 rounded font-bold hover:shadow-lg transition">Explore Solutions</a>
+                    <a href="contact.html" class="border-2 border-slate-800 px-10 py-4 rounded font-bold hover:bg-slate-800 hover:text-white transition">Get In Touch</a>
                 </div>
             </div>
-            <div class="md:w-1/2 p-12">
-                <form action="#" method="POST" class="space-y-4">
-                    <div>
-                        <label class="block text-sm font-bold mb-2">Name</label>
-                        <input type="text" class="w-full border p-3 rounded shadow-sm focus:outline-petro-red" placeholder="Your Name">
-                    </div>
-                    <div>
-                        <label class="block text-sm font-bold mb-2">Email</label>
-                        <input type="email" class="w-full border p-3 rounded shadow-sm focus:outline-petro-red" placeholder="Email Address">
-                    </div>
-                    <div>
-                        <label class="block text-sm font-bold mb-2">Message</label>
-                        <textarea class="w-full border p-3 rounded shadow-sm focus:outline-petro-red" rows="4"></textarea>
-                    </div>
-                    <button class="bg-petro-red text-white px-6 py-3 rounded font-bold w-full hover:bg-red-700">Send Message</button>
-                </form>
+            <div class="lg:w-1/2">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80" alt="Petrostar Corporate Growth" class="rounded-2xl shadow-2xl">
+            </div>
+        </div>
+    </header>
+
+    <section class="py-24 bg-slate-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white p-12 rounded-3xl shadow-sm border border-slate-200">
+                <h2 class="text-4xl font-bold mb-8 text-center">About Petrostar</h2>
+                <div class="space-y-6 text-lg text-slate-600">
+                    <p>Proudly based in <strong>Seremban, Negeri Sembilan</strong>, Petrostar Sdn. Bhd. is a diversified Malaysian entity dedicated to providing high-impact corporate solutions. Since our inception in 2002, we have focused on bridging the gap between human potential and corporate objectives.</p>
+                    <p>Our deep roots in Seremban allow us to serve as a strategic partner to both local enterprises and multinational corporations. Whether it is through meticulous Human Resource Management or professional Facility Maintenance, we bring a standard of excellence that has been refined over twenty years of dedicated service.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-900 text-white py-10 mt-10">
+    <footer class="bg-slate-900 text-white py-12">
         <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2026 Petrostar Sdn. Bhd. All Rights Reserved.</p>
+            <p class="opacity-60 font-medium">&copy; 2026 Petrostar Sdn. Bhd. (Seremban, Malaysia). All Rights Reserved.</p>
         </div>
     </footer>
 </body>
